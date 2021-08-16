@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <canvas id="myCanvas" width="600" height="170" style="border:1px solid #d3d3d3;">
+
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      
+      ctx.beginPath();
+
+      ctx.moveTo(20, 80);
+      ctx.lineTo(70, 80);
+      ctx.lineTo(70, 50);
+      ctx.arc(70, 30, 20, 0.5 * Math.PI, 2.5 * Math.PI);
+
+      ctx.lineTo(70, 80);
+      ctx.lineTo(120, 80);
+      ctx.lineTo(120, 110);
+      ctx.arc(120, 140, 20, 1.5 * Math.PI, 3.5 * Math.PI);
+
+      ctx.lineTo(120, 80);
+      ctx.lineTo(170, 80);
+      ctx.lineTo(170, 50);
+      ctx.arc(170, 30, 20, 0.5 * Math.PI, 2.5 * Math.PI);
+
+      ctx.lineTo(170, 80);
+      ctx.lineTo(220, 80);
+      ctx.lineTo(220, 110);
+      ctx.arc(220, 140, 20, 1.5 * Math.PI, 3.5 * Math.PI);
+
+      ctx.moveTo(220, 80);
+      ctx.lineTo(270, 80);
+      ctx.lineTo(270, 50);
+      ctx.arc(270, 30, 20, 0.5 * Math.PI, 2.5 * Math.PI);
+
+      ctx.lineTo(270, 80);
+      ctx.lineTo(320, 80);
+      ctx.lineTo(320, 110);
+      ctx.arc(320, 140, 20, 1.5 * Math.PI, 3.5 * Math.PI);
+
+      ctx.lineTo(320, 80);
+      ctx.lineTo(370, 80);
+      ctx.lineTo(370, 50);
+      ctx.arc(370, 30, 20, 0.5 * Math.PI, 2.5 * Math.PI);
+
+      ctx.lineTo(370, 80);
+      ctx.lineTo(420, 80);
+      ctx.lineTo(420, 110);
+      ctx.arc(420, 140, 20, 1.5 * Math.PI, 3.5 * Math.PI);
+
+      ctx.moveTo(420, 80);
+      ctx.lineTo(470, 80);
+      ctx.lineTo(470, 50);
+      ctx.arc(470, 30, 20, 0.5 * Math.PI, 2.5 * Math.PI);
+
+      ctx.lineTo(470, 80);
+      ctx.lineTo(520, 80);
+      ctx.lineTo(520, 110);
+      ctx.arc(520, 140, 20, 1.5 * Math.PI, 3.5 * Math.PI);
+
+      ctx.lineTo(520, 80);
+      ctx.lineTo(570, 80);
+
+      ctx.stroke();
+    </script>
+  </body>
+</html>
